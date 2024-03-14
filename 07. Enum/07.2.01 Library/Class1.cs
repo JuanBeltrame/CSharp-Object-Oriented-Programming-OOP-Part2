@@ -1,4 +1,4 @@
-﻿namespace _07._1._01_Library
+﻿namespace _07._2._01_Library
 {
     public class Class1
     {
