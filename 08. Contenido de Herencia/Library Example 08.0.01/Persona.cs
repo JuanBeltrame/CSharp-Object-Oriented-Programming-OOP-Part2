@@ -13,6 +13,15 @@ namespace Library_Example_08._0._01
         protected long dni;
         private long edad;
 
+        
+
+        public Persona(string nombre, string apellido, long dni)
+        {
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.dni = dni;
+        }
+
         public string Nombre
         {
             get
@@ -47,13 +56,6 @@ namespace Library_Example_08._0._01
             }
         }
 
-
-        public Persona(string nombre, string apellido, long dni)
-        {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.dni = dni;
-        }
 
         public string MostrarPersona()
         {

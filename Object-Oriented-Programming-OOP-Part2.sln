@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.1.01 Library", "08. Cont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.1.01 View", "08. Contenido de Herencia\08.1.01 View\08.1.01 View.csproj", "{AF3C1986-1DF7-45DD-876D-44F9D2792E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.1.04 Library", "08. Contenido de Herencia\08.1.04 Library\08.1.04 Library.csproj", "{4FA47196-BF39-445B-BBD8-D60F182EFC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.1.04 Library", "08. Contenido de Herencia\08.1.04 Library\08.1.04 Library.csproj", "{4FA47196-BF39-445B-BBD8-D60F182EFC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.1.04 View", "08. Contenido de Herencia\08.1.04 View\08.1.04 View.csproj", "{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.1.04 View", "08. Contenido de Herencia\08.1.04 View\08.1.04 View.csproj", "{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Example 08.0.02", "08. Contenido de Herencia\Library Example 08.0.02\Library Example 08.0.02.csproj", "{4C0018A1-25E1-4DE1-9030-3A551096836A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View Example 08.0.02", "08. Contenido de Herencia\View Example 08.0.02\View Example 08.0.02.csproj", "{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0018A1-25E1-4DE1-9030-3A551096836A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0018A1-25E1-4DE1-9030-3A551096836A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0018A1-25E1-4DE1-9030-3A551096836A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0018A1-25E1-4DE1-9030-3A551096836A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +109,8 @@ Global
 		{AF3C1986-1DF7-45DD-876D-44F9D2792E27} = {61CC9CDF-9769-4591-8DF1-830B3BC681A9}
 		{4FA47196-BF39-445B-BBD8-D60F182EFC43} = {61CC9CDF-9769-4591-8DF1-830B3BC681A9}
 		{00BA7D5F-82AF-45B5-9CD7-9B9939895B9C} = {61CC9CDF-9769-4591-8DF1-830B3BC681A9}
+		{4C0018A1-25E1-4DE1-9030-3A551096836A} = {61CC9CDF-9769-4591-8DF1-830B3BC681A9}
+		{77FE3B03-6DE0-4C7B-AB85-8CA868629AD1} = {61CC9CDF-9769-4591-8DF1-830B3BC681A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {144617AA-9898-4F76-95AE-8FBBC87EEC8C}
