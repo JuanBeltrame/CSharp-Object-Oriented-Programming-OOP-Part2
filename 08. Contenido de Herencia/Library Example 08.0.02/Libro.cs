@@ -1,6 +1,6 @@
 ﻿namespace Library_Example_08._0._02
 {
-    public class Libro : Publicacion
+    public sealed class Libro : Publicacion
     {
         private string autor;
         private float precio;
