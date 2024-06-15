@@ -5,6 +5,17 @@
         private string nombre;
         private int numero;
 
+        
+        public Cliente(int numero)
+        {
+            this.numero = numero;
+        }
+
+        public Cliente(int numero, string nombre) : this(numero)
+        {
+            this.nombre = nombre;
+        }
+
         public string Nombre
         {
             get
@@ -18,22 +29,8 @@
         }
         public int Numero
         {
-            get
-            {
-                return numero;
-            }
+            get { return numero; }
+            set { numero = value; }
         }
-
-        public Cliente(int numero)
-        {
-            this.numero = numero;
-        }
-
-        public Cliente(int numero, string nombre) : this(numero)
-        {
-            this.nombre = nombre;
-        }
-
-
     }
 }
