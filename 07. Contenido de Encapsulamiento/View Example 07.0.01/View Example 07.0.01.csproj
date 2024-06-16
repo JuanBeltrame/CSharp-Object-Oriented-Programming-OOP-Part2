@@ -3,9 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Console_Ex._07._0._01</RootNamespace>
+    <RootNamespace>View_Example_07._0._01</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library Ex 07.0.01\Library Ex 07.0.01.csproj" />
+  </ItemGroup>
 
 </Project>

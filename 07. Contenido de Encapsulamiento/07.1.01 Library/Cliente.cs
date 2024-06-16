@@ -1,21 +1,29 @@
-﻿namespace _07._1._01_Library
+﻿using System.Numerics;
+
+namespace _07._1._01_Library
 {
+
     public class Cliente
     {
-        private string nombre;
         private int numero;
+        private string nombre;
 
-        
         public Cliente(int numero)
         {
             this.numero = numero;
         }
-
-        public Cliente(int numero, string nombre) : this(numero)
+        public Cliente(string nombre, int numero) : this(numero)
         {
             this.nombre = nombre;
         }
 
+        public int Numero
+        {
+            get
+            {
+                return numero;
+            }
+        }
         public string Nombre
         {
             get
@@ -27,10 +35,14 @@
                 nombre = value;
             }
         }
-        public int Numero
+
+        public static bool operator ==(Cliente c1, Cliente c2)
         {
-            get { return numero; }
-            set { numero = value; }
+            return c1.numero == c2.numero;
+        }
+        public static bool operator !=(Cliente c1, Cliente c2)
+        {
+            return !(c1 == c2);
         }
     }
 }
