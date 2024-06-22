@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace Console_Example_09._0._01
 {
     // Clase creada dentro de otra clase, solo para que sea mas facil de visualizar. 
-    public class Animal
+    public abstract class Animal
     {
-        public virtual string EmitirSonido()
-        {
-            return "RoaaaaR";
-        }
+        public abstract string EmitirSonido();
+
+        public abstract string Cazar();
+        
         public override int GetHashCode()
         {
             return 1;
@@ -24,6 +24,11 @@ namespace Console_Example_09._0._01
         {
             return "woof!!!";
         }
+
+        public override string Cazar()
+        {
+            return "Estoy cazando porque soy un perro";
+        }
     }
     public class Cachorro : Perro
     {
@@ -33,6 +38,11 @@ namespace Console_Example_09._0._01
         public override string EmitirSonido()
         {
             return "Viva la revolucion carpincha!";
+        }
+
+        public override string Cazar()
+        {
+            return "Estoy cazando porque soy un Carpincho";
         }
     }
 }

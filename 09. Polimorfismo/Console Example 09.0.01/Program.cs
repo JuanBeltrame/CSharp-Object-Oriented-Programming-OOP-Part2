@@ -17,7 +17,7 @@ static void EscucharAnimal(Animal animal)
 
 
 List<Animal> animales = new List<Animal>();
-animales.Add(new Animal()); // Roar
+// animales.Add(new Animal()); // Roar // No se puede instanciar animal porque es abstracto
 animales.Add(new Perro()); // Woof
 animales.Add(new Carpincho()); // Viva la revolucion
 animales.Add(new Perro()); // Woof

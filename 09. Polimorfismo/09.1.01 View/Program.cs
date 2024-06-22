@@ -1,7 +1,9 @@
 ﻿using _09._1._01_View;
 
-Sobrescrito sobrecarga = new();
+SobreSobrescrito sobrecarga = new();
 
+Console.WriteLine(sobrecarga.MiMetodo());
+Console.WriteLine("---------------------------------------------");
 Console.WriteLine(sobrecarga.ToString());
 
 string objeto = "Este es mi metodo ToString sobreescrito!";
