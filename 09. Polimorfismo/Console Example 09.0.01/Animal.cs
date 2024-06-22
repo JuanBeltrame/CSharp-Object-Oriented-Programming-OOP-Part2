@@ -13,6 +13,10 @@ namespace Console_Example_09._0._01
         {
             return "RoaaaaR";
         }
+        public override int GetHashCode()
+        {
+            return 1;
+        }
     }
     public class Perro : Animal
     {
