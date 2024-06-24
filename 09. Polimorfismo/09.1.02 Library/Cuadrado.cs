@@ -8,6 +8,9 @@ namespace _09._1._02_Library
 {
     public sealed class Cuadrado : Rectangulo
     {
+        public Cuadrado(float longitudLado) : base(longitudLado, longitudLado)
+        {
 
+        }
     }
 }

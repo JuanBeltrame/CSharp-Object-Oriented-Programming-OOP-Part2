@@ -8,14 +8,21 @@ namespace _09._1._02_Library
 {
     public sealed class Circulo : Figura 
     {
+        private float radio;
+
+        public Circulo(float radio)
+        {
+            this.radio = radio;
+        }
+
         public override double CalcularPerimetro()
         {
-            throw new NotImplementedException();
+            return Math.PI * radio * 2;
         }
 
         public override double CalcularSuperficie()
         {
-            throw new NotImplementedException();
+            return Math.PI * Math.Pow(radio,2);
         }
 
         public override string Dibujar()

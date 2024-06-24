@@ -10,25 +10,28 @@ namespace _08._1._04_Library
     {
         protected float costo;
 
-        public Local(Llamada llamada, float costo)
-            : this(llamada.NroOrigen, llamada.Duracion, llamada.NroDestino, costo)
+        public Local(string origen, float duracion, string destino, float costo) 
+            :this (new Llamada(duracion, destino, origen), costo)
         {
-            
+           
+        }
+
+        public Local(Llamada llamada, float costo)
+            :base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
+        {
+            this.costo = costo;
         }
 
         public float CostoLlamada
         {
             get { return CalcularCosto(); }
         }
-        public Local(string origen, float duracion, string destino, float costo) : base(duracion, destino, origen)
-        {
-            this.costo = costo;
-        }
-
+        
         public new string Mostrar()
         {
             StringBuilder sb = new();
             sb.AppendLine(base.Mostrar());
+            sb.AppendLine($"Costo por minuto: {costo}");
             sb.AppendLine($"Costo de la llamada: {CostoLlamada}");
             return sb.ToString();
         }
