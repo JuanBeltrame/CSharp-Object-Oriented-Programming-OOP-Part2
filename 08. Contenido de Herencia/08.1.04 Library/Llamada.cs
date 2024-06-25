@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08._1._04_Library
 {
-    internal class Llamada
+    public class Llamada
     {
         public enum TipoLlamada
         {

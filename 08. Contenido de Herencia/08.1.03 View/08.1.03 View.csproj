@@ -3,13 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_08._1._04_View</RootNamespace>
+    <RootNamespace>_08._1._03_View</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\08.1.04 Library\08.1.04 Library.csproj" />
-  </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08._1._04_Library
 {
-    internal class Local : Llamada
+    public class Local : Llamada
     {
         protected float costo;
 
@@ -30,6 +30,7 @@ namespace _08._1._04_Library
         public new string Mostrar()
         {
             StringBuilder sb = new();
+            sb.AppendLine("Tipo de Llamada: Local");
             sb.AppendLine(base.Mostrar());
             sb.AppendLine($"Costo por minuto: {costo}");
             sb.AppendLine($"Costo de la llamada: {CostoLlamada}");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08._1._04_Library
 {
-    internal class Provincial : Llamada
+    public class Provincial : Llamada
     {
         public enum Franja { Franja_1, Franja_2, Franja_3 }
 
@@ -33,6 +33,7 @@ namespace _08._1._04_Library
         public new string Mostrar()
         {
             StringBuilder sb = new();
+            sb.AppendLine("Tipo de Llamada: Provincial");
             sb.AppendLine(base.Mostrar());
             sb.AppendLine($"Franja Horaria: {franjaHoraria}");
             sb.AppendLine($"Costo de la llamada: {CostoLlamada}");
@@ -40,7 +41,20 @@ namespace _08._1._04_Library
         }
         private float CalcularCosto()
         {
-            return duracion * costo;
+            float costo = 0;
+            switch (franjaHoraria)
+            {
+                case Franja.Franja_1:
+                    costo = duracion * 0.99f;
+                    break;
+                case Franja.Franja_2:
+                    costo =  duracion * 1.25f;
+                    break;
+                case Franja.Franja_3:
+                    costo = duracion * 0.66f;
+                    break;
+            }
+            return costo;
         }
     }
 }
