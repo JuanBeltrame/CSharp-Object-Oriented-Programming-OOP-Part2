@@ -13,6 +13,7 @@
         private int totalGoles;
         private int totalPartidos;
         private Deporte deporte;
+       
 
         public Torneo(int totalGoles, int totalPartidos, Deporte deporte)
         {
@@ -29,6 +30,8 @@
             }
 
         }
+
+        
 
         public int TotalGoles
         {
