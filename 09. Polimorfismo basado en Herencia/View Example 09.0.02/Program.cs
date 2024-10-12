@@ -1,4 +1,4 @@
-﻿using Console_Example_09._0._02;
+﻿using View_Example_09._0._02;
 
 Persona persona = new("Marta", 'x', "1111");
 Persona otraPersona = new("Juan Perez", 'x', "1111");

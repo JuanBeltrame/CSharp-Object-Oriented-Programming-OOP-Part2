@@ -1,4 +1,4 @@
-﻿using Library_Ex_07._0._01;
+﻿
 
 //Torneo torneo = new Torneo(10, 5);
 
@@ -13,6 +13,8 @@
 
 //Console.ForegroundColor = ConsoleColor.Red;
 //Console.WriteLine($"nombre: {Console.ForegroundColor} - numero {(int)color}");
+
+using Library_Example_07._0._01;
 
 Torneo torneo = new Torneo(10, 5, Deporte.Futbol);
 Console.WriteLine($"El Deporte del torneo es: {torneo.DeporteDelTorneo}");

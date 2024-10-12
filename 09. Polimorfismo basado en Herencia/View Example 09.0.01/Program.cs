@@ -1,4 +1,4 @@
-﻿using Console_Example_09._0._01;
+﻿
 
 //Animal animal = new Animal(); 
 //Animal perro = new Perro();
@@ -9,6 +9,8 @@
 //Console.WriteLine($" Perro: {perro.EmitirSonido()}");
 //Console.WriteLine($" Carpincho: {carpincho.EmitirSonido()}");
 //Console.WriteLine($" otro Perro: {otroPerro.EmitirSonido()}");
+
+using View_Example_09._0._01;
 
 static void EscucharAnimal(Animal animal)
 {

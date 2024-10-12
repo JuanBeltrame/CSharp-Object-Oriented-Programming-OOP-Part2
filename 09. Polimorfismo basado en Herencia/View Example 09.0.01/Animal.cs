@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Example_09._0._01
+namespace View_Example_09._0._01
 {
     // Clase creada dentro de otra clase, solo para que sea mas facil de visualizar. 
     public abstract class Animal

@@ -1,4 +1,4 @@
-﻿namespace Library_Ex_07._0._01
+﻿namespace Library_Example_07._0._01
 {
     public enum Deporte
     {

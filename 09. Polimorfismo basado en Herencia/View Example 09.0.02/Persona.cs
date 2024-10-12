@@ -1,11 +1,12 @@
-﻿using Console_Example_09._0._01;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using View_Example_09._0._01;
 
-namespace Console_Example_09._0._02
+namespace View_Example_09._0._02
 {
     internal class Persona
     {
